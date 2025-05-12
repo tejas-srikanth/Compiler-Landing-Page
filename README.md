@@ -31,7 +31,7 @@ Programs follow a well-defined CFG structure: functions contain ordered declarat
 Semantic checks ensure proper typing, uniqueness of function names, valid variable usage (no use-before-declaration), and consistency in function calls. Recursion is supported, but mutual recursion is deliberately excluded to reduce parsing complexity.
 
 ### Semantic Behavior  
-The compiler ensures that every accepted program is both syntactically correct and semantically aligned with C++ standards. This allows for seamless integration of the generated MIPS code with C++ programs or toolchains, while preserving deterministic behavior.
+The compiler ensures that every accepted program is both syntactically correct and semantically aligned with C++ standards. This allows for seamless integration of the generated x86 code with C++ programs or toolchains, while preserving deterministic behavior.
 
 ## Source Code Access & Contact  
 The source code is protected under intellectual property considerations due to the effort and originality behind its design. If you’re interested in collaboration, reviewing the implementation, or contributing ideas—especially as newer C++ features are being added (e.g., init-statements, concepts, structured bindings)—please feel free to reach out:  

@@ -1,4 +1,4 @@
-# C++ Subset Compiler  
+# SrikanthCC - A C++ Subset Compiler  
 A high-performance, custom-engineered compiler for a well-defined subset of the **C++** programming language. This project delivers a complete **compiler toolchain** with a focus on **execution efficiency** and **optimized code generation**, incorporating essential stages such as **lexical analysis**, **assembly**, **syntax parsing**, **semantic validation**, and **targeted code emission**.
 
 ## Key Components  

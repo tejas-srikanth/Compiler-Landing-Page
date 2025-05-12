@@ -6,7 +6,7 @@ A high-performance, custom-engineered compiler for a well-defined subset of the 
 - **Assembler**: Converts intermediate assembly into executable MIPS machine code  
 - **Parsing**: Implements an LR(1) parser for robust syntax tree construction  
 - **Semantic Analysis**: Validates abstract syntax trees for type correctness and rule conformity  
-- **Code Generation**: Produces optimized MIPS instructions with minimal overhead
+- **Code Generation**: Produces optimized x86 instructions with minimal overhead
 
 ## Supported Language Subset  
 The compiler handles a focused subset of C++, emphasizing fundamental constructs for clarity and speed. Supported features include:
